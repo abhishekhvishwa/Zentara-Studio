@@ -41,7 +41,7 @@ nav{
     padding-left: 2vw;
     padding-right: 2vw;
     padding-bottom: 2vw;
-    margin: -2.5vw;
+    margin: -2.7vw;
     position: relative;
     z-index: 109;
     /* 1vw = 1% of the browser window’s width
@@ -54,6 +54,11 @@ nav{
              bottom = 2vw
             left = 2vw
             right = 2vw */
+}
+
+nav img{
+    width :13.4vw;
+    height: 6.1vw;
 }
 
 /* menu button for mobile */
@@ -145,7 +150,8 @@ nav{
     text-align: end;
     line-height: 83%;
     padding-right: 1vw;
-
+    position: relative;
+    top: -3vw;
 }
 
 /*----video styles----*/
@@ -874,6 +880,11 @@ footer #shape2{
         padding: 3vw 3vw;
 
         background-color: #EFEAE3;
+    }
+
+    nav img{
+        width :36vw;
+        height: 19vw;
     }
 
     #nav_right{
